@@ -9,6 +9,17 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autodoc-pydanti
 
 Summary: Seamlessly integrate pydantic models in your Sphinx documentation.
 
+Documentation: https://autodoc-pydantic.readthedocs.io/en/latest/
+
+You love [pydantic](https://pydantic-docs.helpmanual.io/) ❤ and you want to
+document your models and configuration settings with [sphinx](https://www.sphinx-doc.org/en/master/)?
+
+Perfect, let's go. But wait, sphinx' [autodoc](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html)
+does not integrate too well with pydantic models 😕.
+
+Don't worry - just `pip install autodoc_pydantic` ☺.
+
+
 Current build status
 ====================
 
