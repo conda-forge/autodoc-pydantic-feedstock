@@ -11,7 +11,7 @@ source:
   sha256: 82aad0ea4a49efd6446dc9001d74d13d908138b846d3eacd524821bce2671da2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -36,7 +36,16 @@ test:
 
 about:
   home: https://github.com/mansenfranzen/autodoc_pydantic
+  doc_url: https://autodoc-pydantic.readthedocs.io/en/latest/
   summary: Seamlessly integrate pydantic models in your Sphinx documentation.
+  description: |
+    You love [pydantic](https://pydantic-docs.helpmanual.io/) ❤ and you want to
+    document your models and configuration settings with [sphinx](https://www.sphinx-doc.org/en/master/)?
+
+    Perfect, let's go. But wait, sphinx' [autodoc](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html)
+    does not integrate too well with pydantic models 😕.
+
+    Don't worry - just `pip install autodoc_pydantic` ☺.
   license: MIT
   license_file: LICENSE
 
