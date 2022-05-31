@@ -1,5 +1,5 @@
 {% set name = "autodoc-pydantic" %}
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/autodoc_pydantic-{{ version }}.tar.gz
-  sha256: c48f80431fa45a531333dac96584efe8ce2177d5ffd0af21b6b4eadd6f1dd1df
+  sha256: b7900e3323307d94044555b11b7c328b504e4d3e6406a837f687a3cfb8e1501c
 
 build:
   number: 0
