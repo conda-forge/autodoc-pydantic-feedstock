@@ -1,5 +1,5 @@
 {% set name = "autodoc-pydantic" %}
-{% set version = "1.8.0" %}
+{% set version = "1.9.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/autodoc_pydantic-{{ version }}.tar.gz
-  sha256: 77da1cbbe4434fa9963f85a1555c63afff9a4acec06b318dc4f54c4f28a04f2c
+  sha256: 0f35f8051abe77b5ae16d8a1084c47a5871435e2ca9060e36c838d063c03cc89
 
 build:
   number: 0
@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6,<4.0
+    - python >=3.7.1,<4.0
     - poetry
   run:
-    - pydantic >=1.5
-    - python >=3.6,<4.0
+    - pydantic >=1.5,<2.0.0
+    - python >=3.7.1,<4.0
     - sphinx >=3.4
 
 test:

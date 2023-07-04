@@ -1,11 +1,11 @@
-About autodoc-pydantic
-======================
+About autodoc-pydantic-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autodoc-pydantic-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mansenfranzen/autodoc_pydantic
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autodoc-pydantic-feedstock/blob/main/LICENSE.txt)
 
 Summary: Seamlessly integrate pydantic models in your Sphinx documentation.
 
