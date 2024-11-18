@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - poetry
+    - poetry-core
   run:
     - python >={{ python_min }}
     - sphinx >=4.0
