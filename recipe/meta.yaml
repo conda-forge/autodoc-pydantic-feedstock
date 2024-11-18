@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/autodoc_pydantic-{{ version }}-py3-none-any.whl 
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/autodoc_pydantic-{{ version }}-py3-none-any.whl 
   sha256: 3cf1b973e2f5ff0fbbe9b951c11827b5e32d3409e238f7f5782359426ab8d360
 
 build:
